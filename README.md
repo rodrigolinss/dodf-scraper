@@ -1,6 +1,6 @@
 # Projeto de Busca de Termo no Diário Oficial do DF
 
-Este projeto tem como objetivo automatizar a busca diária de documentos no Diário Oficial do Distrito Federal (DODF). O código é executado periodicamente para localizar as páginas mais recentes que contenham o PDF intitulado "INTEGRA.pdf" e verificar se elas contêm o termo pesquisado (por exemplo, "ibanes"). A ideia é fornecer uma maneira prática de monitorar o DODF em busca de informações relevantes de forma automatizada.
+Este projeto tem como objetivo automatizar a busca diária de documentos no Diário Oficial do Distrito Federal (DODF). O código será executado periodicamente para localizar as páginas mais recentes que contenham o PDF intitulado "INTEGRA.pdf" e verificar se elas contêm o termo pesquisado (por exemplo, "SECRETÁRIO DE ESTADO DE EDUCAÇÃO"). A ideia é fornecer uma maneira prática de monitorar o DODF em busca de informações relevantes de forma automatizada.
 
 ## Objetivo
 

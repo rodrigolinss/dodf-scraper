@@ -8,18 +8,9 @@ A intenção é que este projeto seja executado diariamente para verificar as pu
 
 ### Funcionalidade Esperada
 - **Busca diária no DODF**: O script será executado todos os dias para procurar por documentos atualizados contendo o PDF "INTEGRA.pdf".
-- **Verificação de termo no conteúdo do PDF**: O termo de busca será especificado no código (como "ibanes"), e o script irá verificar se esse termo está presente no conteúdo extraído do PDF.
+- **Verificação de termo no conteúdo do PDF**: O termo de busca será especificado no código (como "SECRETÁRIO DE ESTADO DE EDUCAÇÃO"), e o script irá verificar se esse termo está presente no conteúdo extraído do PDF.
 - **Relatório diário**: O script retorna as páginas do DODF que contêm o PDF e, caso o termo esteja presente, uma indicação será fornecida.
-
-## Como Funciona
-
-O script acessa o Diário Oficial do DF, localiza o link do PDF intitulado "INTEGRA.pdf", baixa o documento, e procura por um termo específico dentro do conteúdo do PDF. Se o termo for encontrado, uma mensagem é exibida indicando o sucesso da busca.
 
 ## Status Atual
 
 Este projeto está **em fase de teste**. O objetivo principal neste momento é validar a busca diária de PDFs no DODF e a extração de informações a partir do conteúdo desses documentos. O código ainda está sendo ajustado e pode não estar completamente funcional em todos os cenários.
-
-### Pontos em Teste:
-- **Busca no Diário Oficial**: Garantir que o link para o PDF "INTEGRA.pdf" seja localizado corretamente.
-- **Extração de conteúdo do PDF**: Verificar se o conteúdo do PDF está sendo extraído corretamente para buscar o termo.
-- **Execução Diária**: Estabelecer a automação diária para garantir que o código execute a busca e retorne as informações corretamente.
